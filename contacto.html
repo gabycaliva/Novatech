@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — NovaTech</title>
+<meta name="description" content="Solicita tu diagnóstico tecnológico gratuito. Respondemos en menos de 24 horas.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="logo" href="index.html">Nova<span>Tech</span></a>
+    <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+    <ul class="menu" id="menu">
+      <li><a href="index.html" class="">Inicio</a></li><li><a href="servicios.html" class="">Servicios</a></li><li><a href="nosotros.html" class="">Nosotros</a></li><li><a href="contacto.html" class="activo">Contacto</a></li>
+      <li><a href="contacto.html" class="cta-nav">Diagnóstico gratuito</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" style="min-height:45vh">
+  <div class="hero-inner" style="padding-top:120px">
+    <div>
+      <span class="badge">Contacto</span>
+      <h1>Hablemos de <span class="grad-text">tu proyecto</span></h1>
+      <p>Completá el formulario y te contactamos en menos de 24 horas hábiles. El diagnóstico inicial es gratuito y sin compromiso.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <div class="info-item"><div class="icon">📍</div><div><b>Dirección</b><small>Av. Innovación 1234, Piso 5, Santiago, Chile</small></div></div>
+        <div class="info-item"><div class="icon">📧</div><div><b>Email</b><small><a href="mailto:contacto@novatech.cl">contacto@novatech.cl</a></small></div></div>
+        <div class="info-item"><div class="icon">📞</div><div><b>Teléfono</b><small><a href="tel:+56223456789">+56 2 2345 6789</a></small></div></div>
+        <div class="info-item"><div class="icon">🕐</div><div><b>Horario de oficina</b><small>Lunes a Viernes · 9:00 – 18:00 hrs</small></div></div>
+        <div class="info-item"><div class="icon">⚡</div><div><b>Soporte a clientes</b><small>Disponible 24/7 para incidentes críticos</small></div></div>
+      </div>
+      <form id="formContacto" novalidate>
+        <div class="row">
+          <div><label for="nombre">Nombre *</label><input id="nombre" type="text" placeholder="Tu nombre" required></div>
+          <div><label for="email">Email *</label><input id="email" type="email" placeholder="tu@email.com" required></div>
+        </div>
+        <div class="row">
+          <div><label for="empresa">Empresa</label><input id="empresa" type="text" placeholder="Nombre de tu empresa"></div>
+          <div><label for="telefono">Teléfono</label><input id="telefono" type="tel" placeholder="+56 9 ..."></div>
+        </div>
+        <label for="servicio">¿Qué necesitas? *</label>
+        <select id="servicio" required>
+          <option value="">Seleccioná una opción…</option>
+          <option>Desarrollo de Software</option>
+          <option>Cloud &amp; DevOps</option>
+          <option>Ciberseguridad</option>
+          <option>Data &amp; IA</option>
+          <option>Soporte IT</option>
+          <option>Consultoría Digital</option>
+          <option>Otro / no estoy seguro</option>
+        </select>
+        <label for="mensaje">Contanos tu desafío *</label>
+        <textarea id="mensaje" rows="4" placeholder="¿Qué problema querés resolver?" required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        <div class="ok" id="okMsg">✓ ¡Mensaje enviado! Te contactaremos en menos de 24 horas hábiles.</div>
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="foot">
+    <div>
+      <a class="logo" href="index.html">Nova<span>Tech</span></a>
+      <p>Soluciones tecnológicas integrales para impulsar la transformación digital de tu empresa. Software, cloud, seguridad y datos.</p>
+    </div>
+    <div>
+      <h4>Mapa del sitio</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="mailto:contacto@novatech.cl">contacto@novatech.cl</a></li>
+        <li><a href="tel:+56223456789">+56 2 2345 6789</a></li>
+        <li><a href="contacto.html">Av. Innovación 1234, Santiago</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy">© 2026 NovaTech SpA · Todos los derechos reservados</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
